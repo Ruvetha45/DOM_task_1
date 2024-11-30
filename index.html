@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Task 1</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>COLOR THE CIRCLE</header>
+  <div class="box">
+    <div class="circle" id="circle"></div>
+  </div>
+
+  <div class="button-container">
+    <button onclick="changeColor('red')">Red</button>
+    <button onclick="changeColor('blue')">Blue</button>
+    <button onclick="changeColor('green')">Green</button>
+    <button onclick="resetColor()">Reset</button>
+  </div>
+
+  <input type="color" id="customColorInput">
+  <button onclick="chooseCustomColor()">Choose Custom Color</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
